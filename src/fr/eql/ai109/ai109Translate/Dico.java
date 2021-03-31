@@ -1,5 +1,8 @@
 package fr.eql.ai109.ai109Translate;
 
+/**
+ * Main author Jessica
+ */
 import java.util.ArrayList;
 
 public class Dico {

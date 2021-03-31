@@ -1,5 +1,9 @@
 package fr.eql.ai109.ai109Translate;
 
+/**
+ * Main only testing
+ * maiki93
+ */
 public class Translate {
 
 	public static void main(String[] args) {

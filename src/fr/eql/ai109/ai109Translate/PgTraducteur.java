@@ -1,13 +1,16 @@
 package fr.eql.ai109.ai109Translate;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * Author Jessica
+ */
 public class PgTraducteur {
 
 	public static void main(String[] args) {
 
 
-		Dico dictionnaire = new Dico();         //création d'un dictionnaire vide
+		Dico dictionnaire = new Dico();
 		Scanner scan = new Scanner(System.in);                
 
 		ParserLarousse parserLarousse = new ParserLarousse();

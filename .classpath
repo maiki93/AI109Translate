@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/michael/lib_java/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/formation/Documents/lib_java/jsoup-1.13.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

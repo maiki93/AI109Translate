@@ -1,5 +1,9 @@
 package fr.eql.ai109.ai109Translate;
 
+/**
+ * 
+ * maiki93
+ */
 import java.io.IOException;
 
 import org.jsoup.Jsoup;
@@ -28,9 +32,9 @@ public class ParserLarousse {
 	
 	private void createUrl(String nom) {
 		if( this.frToEng) 
-			this.url = URL_LAROUSSE + "francais-anglais/" + nom.strip();
+			this.url = URL_LAROUSSE + "francais-anglais/" + nom; //.st strip(); only java 11
 		else
-			this.url = URL_LAROUSSE + "anglais-francais/" + nom.strip();
+			this.url = URL_LAROUSSE + "anglais-francais/" + nom; //.strip();
 		System.out.println("created url "+ this.url);
 	}
 	

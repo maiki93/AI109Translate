@@ -1,5 +1,9 @@
 package fr.eql.ai109.ai109Translate;
-
+/**
+ * 
+ * 
+ * Main author Jessica
+ */
 public class Mots {
 
 	private String motFrançais;
